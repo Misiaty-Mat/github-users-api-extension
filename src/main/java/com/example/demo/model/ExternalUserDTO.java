@@ -8,12 +8,12 @@ import java.time.LocalDateTime;
 @Builder
 @Data
 public class ExternalUserDTO {
-    Long id;
-    String login;
-    String name;
-    String type;
-    String avatar_url;
-    LocalDateTime created_at;
-    Long followers;
-    Long public_repos;
+    private Long id;
+    private String login;
+    private String name;
+    private String type;
+    private String avatar_url;
+    private LocalDateTime created_at;
+    private Long followers;
+    private Long public_repos;
 }
